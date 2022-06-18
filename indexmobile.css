@@ -1,0 +1,94 @@
+body {
+  margin: auto;
+ 
+  background-color: white;
+  box-sizing: border-box;
+  width: 375px;
+}
+main {
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+}
+.first-container {
+  background-image: url(bg-intro-mobile.png);
+  background-color: #ff4d47;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  width: 45vh;
+  padding: 10px;
+  height: 100%;
+}
+h2 {
+  color: white;
+}
+.first-paragraph {
+  color: white;
+  font-size: large;
+}
+
+.second-container {
+  background-color: rgb(88, 19, 179);
+  padding: 3px;
+  width: 160px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.second-container #text-1 {
+  color: white;
+  font-weight: bold;
+}
+.second-container p {
+  color: white;
+}
+.third-container {
+  background-color: white;
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+#fname {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-width: thin;
+}
+#lname {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-width: thin;
+}
+#email {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-width: thin;
+}
+#psw {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-width: thin;
+}
+.btn {
+  background-color: rgba(2, 187, 2, 0.685);
+  border: none outset;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: rgba(2, 187, 2, 0.685);
+}
+.last-paragraph {
+  color: grey;
+}
+#text-2 {
+  color: #ff4d47;
+}
